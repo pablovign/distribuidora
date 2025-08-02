@@ -28,7 +28,7 @@ public class Local {
     private Point geom;
 
     @ManyToOne(optional = false)
-    @JoinColumn(name = "id_localidad", nullable = false)
+    @JoinColumn(name = "id_distrito", nullable = false)
     private Distrito distrito;
 
     public Integer getIdLocal() {
